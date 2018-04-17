@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uniform</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    	.image {
+  		transition: filter .5s ease-in-out;
+  		-webkit-filter: grayscale(75%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  		filter: grayscale(75%); /* FF 35+ */
+		}
+		.image:hover {
+  		-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  		filter: grayscale(0%); /* FF 35+ */
+		}
+		.image1{
+			height: 300px;
+			width: 350px;
+			border-bottom-left-radius: 250px;
+			border-top-left-radius: 250px;
+			margin-top: 150px;
+			margin-left: 150px;
+			margin-bottom: 300px;
+
+		}
+		.image2{
+			height: 300px;
+			width: 350px;
+			border-bottom-right-radius: 250px;
+			border-top-right-radius: 250px;
+			margin-top: 150px;
+			margin-left: 10px;
+			margin-bottom: 300px;
+
+		}
+		input{
+			border-style: none;
+			background-color: transparent;
+			margin-left: 55px;
+		}
+		body{
+			background:linear-gradient(to top,lightgrey,#F5F5F5);
+		}
+		
+    </style>
+  </head>
+  <body>
+  	<a class="navbar-brand" href="#">
+          <img style="height: 40px; width: 125px" src="file:///F:/CST%20Project/Project/img/logo_chitkara_black.png">
+        </a>
+    <nav class="navbar" style="background-color:transparent;margin-left: 100px;">
+        
+        <ul class="nav navbar-nav" style="padding-top: 20px;">
+        <li><input type="button" name="home" value="Home"></li>
+        <li><input type="button" name="school" value="School Uniform"></li>
+        <li><input type="button" name="clg" value="College Uniform"></li>
+        <li><input type="button" name="about" value="About"></li>
+      </ul>
+    </div>
+</nav>
+<hr>
+<div class="container">
+	<a href="#">
+	<img class="image image1" src="file:///F:/CST%20Project/Project/img/chitkara-international-school-chandigarh-schools-1x64o5p.jpg" alt="school" title="School">
+	<img class="image image2" src="file:///F:/CST%20Project/Project/img/chitkara-university-chandigarh-a35be.jpg" alt="college" title="College">
+	</a>
+</div>
+      
+
+  </body>
+  </html>
